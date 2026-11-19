@@ -1,0 +1,35 @@
+{
+  "name": "ai-creation-source",
+  "productName": "TT助手AI",
+  "version": "1.5.5",
+  "private": true,
+  "description": "TT助手AI / AI Creation 客户端完整源码工程：Electron 外壳 + 还原前端（Vue SPA）+ 本地 API 网关 + 豆包本地助手 + 离线卡密内核",
+  "main": "electron/main.cjs",
+  "author": "recovered build",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "node tools/dev.mjs",
+    "dev:web": "vite --config renderer/vite.config.mjs",
+    "build:web": "vite build --config renderer/vite.config.mjs",
+    "build": "node build.cjs",
+    "start": "electron .",
+    "start:local": "node tools/start-local.mjs",
+    "gateway": "node gateway/ai-gateway.cjs",
+    "test": "node --test \"test/*.test.cjs\"",
+    "clone-back": "node tools/clone-back.mjs",
+    "clone-back:check": "node tools/clone-back.mjs --check",
+    "smoke": "node tools/smoke.mjs",
+    "smoke:app": "node tools/smoke-app.mjs",
+    "keygen": "python tools/keygen.py",
+    "agent:install": "node tools/install-agent-deps.mjs",
+    "build:v158": "node tools/build-v158-crack.mjs",
+    "verify:v158": "node tools/verify-v158.mjs"
+  },
+  "devDependencies": {
+    "@electron/asar": "^3.2.10",
+    "@electron/packager": "19.0.1",
+    "electron": "44.4.3",
+    "playwright-core": "^1.65.1",
+    "vite": "^5.4.11"
+  }
+}

@@ -1,0 +1,5 @@
+# main: length=12245 v8=15.2.124.28-electron.0 modules=149 arch=x64
+# cachedDataRejected = false
+# wrapper: type=function arity=5 name=""
+# --- DebugPrint ---
+# --- DisassembleFunction ---

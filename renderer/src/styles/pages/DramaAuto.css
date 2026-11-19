@@ -1,0 +1,40 @@
+.drama-auto-page{height:100%;min-height:calc(100vh - 92px);display:flex;flex-direction:column;gap:14px}
+.drama-auto-head{display:flex;align-items:flex-start;justify-content:space-between;gap:16px}
+.drama-auto-head span{color:var(--accent-2);font-size:11px}
+.drama-auto-head h1{margin:4px 0 5px;font-size:22px}
+.drama-auto-head p{margin:0;color:var(--text-dim);font-size:12px;max-width:760px;line-height:1.7}
+.drama-auto-head .btn-plain{white-space:nowrap;text-decoration:none}
+
+.da-cards{display:grid;grid-template-columns:minmax(280px,1fr) minmax(280px,1fr);gap:14px}
+@media(max-width:900px){.da-cards{grid-template-columns:1fr}}
+
+.da-card{border:1px solid var(--border);border-radius:10px;background:var(--bg-panel);padding:18px 20px}
+.da-card h3{margin:0 0 14px;font-size:14px;font-weight:600}
+
+.da-card dl{display:grid;grid-template-columns:88px 1fr;gap:9px 12px;margin:0;font-size:12px}
+.da-card dt{color:var(--text-dim)}
+.da-card dd{margin:0;overflow-wrap:anywhere}
+.da-card dd.ok{color:#8fe6b7}
+.da-card dd.no{color:#f2a0a0}
+
+.da-actions{display:flex;flex-wrap:wrap;gap:9px;margin-top:18px}
+.da-actions .btn,.da-actions .btn-plain{cursor:pointer}
+.da-actions button[disabled]{opacity:.55;cursor:default}
+
+.da-notes{margin:0;padding-left:18px;color:var(--text-dim);font-size:12px;line-height:1.95}
+.da-notes li{margin-bottom:7px}
+
+.da-error{margin:0;padding:11px 14px;border:1px solid rgba(242,160,160,.35);border-radius:8px;
+  background:rgba(242,160,160,.08);color:#f2a0a0;font-size:12px;line-height:1.7}
+
+.da-log{border:1px solid var(--border);border-radius:10px;background:var(--bg-panel);padding:16px 20px;
+  max-height:320px;overflow:auto}
+.da-log h3{margin:0 0 12px;font-size:13px}
+.da-log ol{margin:0;padding:0;list-style:none;font-size:12px;line-height:1.95}
+.da-log li{display:flex;gap:10px;border-bottom:1px dashed var(--border);padding:4px 0}
+.da-log li:last-child{border-bottom:0}
+.da-log time{flex:0 0 auto;color:var(--accent-2);font-variant-numeric:tabular-nums}
+
+.da-preview{border:1px solid var(--border);border-radius:10px;background:var(--bg-panel);padding:16px 20px}
+.da-preview h3{margin:0 0 12px;font-size:13px}
+.da-preview img{display:block;max-width:360px;width:100%;border-radius:8px;border:1px solid var(--border)}

@@ -1,0 +1,7 @@
+{
+  "serverUrl": "https://khd.yxzyxm.top",
+  "deviceName": "我的豆包助手",
+  "dataDirectory": "./data",
+  "pollIntervalMs": 3000,
+  "enableTaskPolling": true
+}

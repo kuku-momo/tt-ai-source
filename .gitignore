@@ -1,0 +1,7 @@
+node_modules/
+build/
+dist/
+dist-app/
+tools/.smoke/
+*.log
+user-data/

@@ -1,0 +1,14 @@
+{
+  "name": "lingxi-doubao-agent",
+  "version": "0.4.0",
+  "private": true,
+  "description": "便携式豆包本地助手",
+  "main": "main.cjs",
+  "scripts": {
+    "start": "node main.cjs",
+    "test": "node --test test/config.test.cjs test/cloud-client.test.cjs test/browser.test.cjs test/worker.test.cjs"
+  },
+  "dependencies": {
+    "playwright-core": "1.63.0"
+  }
+}
