@@ -1,0 +1,8 @@
+{
+  "name": "ai-creation-client",
+  "productName": "AI Creation",
+  "version": "1.5.5",
+  "private": true,
+  "description": "Portable desktop client for AI Creation",
+  "main": "main.cjs"
+}
