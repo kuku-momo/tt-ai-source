@@ -4,14 +4,16 @@
 
 **AI 视频 · AI 短剧 · AI 创作 · 一键剪辑 · 一键出片**
 
-[![官网](https://img.shields.io/badge/官网-tt2066.top-ff3d5a?style=flat-square)](https://tt2066.top/)
+[![官网](https://img.shields.io/badge/官网-www.tt2066.top-ff3d5a?style=flat-square)](https://www.tt2066.top/)
 [![API](https://img.shields.io/badge/AI接口-ai.tt2066.top-ffa53d?style=flat-square)](https://ai.tt2066.top/)
-[![中转站](https://img.shields.io/badge/破甲中转站-满血版-2ee6a8?style=flat-square)](https://www.tt2066.top/)
+[![中转站](https://img.shields.io/badge/破甲中转站-满血版-2ee6a8?style=flat-square)](https://zz.tt2066.top/)
+
+**官网：** [www.tt2066.top](https://www.tt2066.top/)　|　**AI 接口：** [ai.tt2066.top](https://ai.tt2066.top/)　|　**破甲中转站 · 满血版：** [zz.tt2066.top](https://zz.tt2066.top/)
 
 </div>
 
 > **本仓库是 TT助手 AI 客户端的完整源码工程。**
-> 想直接用成品、不想自己构建 —— 装桌面客户端：[**tt2066.top**](https://tt2066.top/)
+> 想直接用成品、不想自己构建 —— 装桌面客户端：[**www.tt2066.top**](https://www.tt2066.top/)
 > 想接模型、写自己的应用 —— 拿一串密钥接中转站：[**ai.tt2066.top**](https://ai.tt2066.top/)　（OpenAI 协议兼容，一个 base_url 切换全部模型）
 
 ---
@@ -30,7 +32,7 @@
 
 **1. 直接装客户端（推荐给普通用户）**
 
-打开 [tt2066.top](https://tt2066.top/) → 下载 Windows 客户端 → 登录即用。接口已内置，不用配置。
+打开 [tt2066.top](https://www.tt2066.top/) → 下载 Windows 客户端 → 登录即用。接口已内置，不用配置。
 
 **2. 用源码自己构建（给开发者）**
 
@@ -178,4 +180,5 @@ python tools/keygen.py --verify MYAI-P000-XXXX-XXXXXXXX
 本仓库仅还原用户本机已持有客户端的技术结构，供学习、审计与二次开发。
 `gateway/ai-gateway.cjs` 的生成接口返回的是占位视频；真实生成需要接入自己的
 OpenAI 兼容上游（设置页原生支持），或回 `upstream` 模式走官方服务器。
+
 
